@@ -1,0 +1,81 @@
+body {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container {
+    background: #fff;
+    padding: 40px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+  }
+  
+  .logo {
+    width: 175px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  button {
+    background-color: #0095f6;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .or-divider {
+    text-align: center;
+    margin: 10px 0;
+    position: relative;
+  }
+  
+  .or-divider::before,
+  .or-divider::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background: #dbdbdb;
+  }
+  
+  .or-divider::before {
+    left: 0;
+  }
+  
+  .or-divider::after {
+    right: 0;
+  }
+  
+  .fb-login,
+  .forgot-password {
+    text-align: center;
+    color: #385185;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  

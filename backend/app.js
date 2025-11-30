@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // MongoDB Connection
-mongoose.connect('mongodb://localhost:27017/igc', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://insta:insta123@cluster0.nf5ayxe.mongodb.net/insta-login', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // MongoDB Schema
 const userSchema = new mongoose.Schema({
